@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="IIS Web Application Name" description="" value="vote20190611085720" tags="IisApp">
+  <parameter name="IIS Web Application Name" description="" value="vote20190612092136" tags="IisApp">
     <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\repos_2\\exercisetwo\\vote\\vote\\obj\\Release\\netcoreapp2\.1\\PubTmp\\Out\\$" />
   </parameter>
 </parameters>

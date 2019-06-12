@@ -63,7 +63,7 @@ using vote.Models;
             WriteLiteral("\r\n<div class=\"main\">\r\n    ");
             EndContext();
             BeginContext(71, 380, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6287d7dea82d4795ab8f78e4a993f828", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2d69aa4af7704beaa1ce5804ed3e8cdc", async() => {
                 BeginContext(134, 310, true);
                 WriteLiteral(@"
         <div class=""row"">
