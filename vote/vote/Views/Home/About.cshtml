@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "About";
+}
+
+    <h2>@ViewData["whoIsBigger"]</h2>
+
+    <div class="mfContainer">
+
+        <div class="male">
+            <h1>Male</h1>
+            <i class="fas fa-male"></i>
+            <h3 class="@(ViewData["whoIsBigger"]=="True" ? " red " : " green " )">@ViewData["male"]%</h3>
+            <button class="btn btn-success">Vote <i class="fas fa-check"></i></button>
+        </div>
+        <div class="female">
+            <h1>Female</h1>
+            <i class="fas fa-female"></i>
+            <h3 class="@(ViewData["whoIsBigger"]=="True" ? " green " : " red " )">@ViewData["female"]%</h3>
+            <button class="btn btn-success">Vote <i class="fas fa-check"></i></button>
+        </div>
+
+    </div>
+

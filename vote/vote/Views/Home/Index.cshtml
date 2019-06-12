@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="main">
+    <form asp-action="voteNow" asp-controller="Home" method="post">
+        <div class="row">
+                <h1>Please vote your gender</h1>
+                <button type="submit" value="male" name="gender" class="btn btn-success">Male</button> 
+              <button type="submit" value="female" name="gender" class="btn btn-success">Female</button>
+        </div>
+    </form>
+</div>
